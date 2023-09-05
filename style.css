@@ -1,0 +1,19 @@
+/* Basic Styling */
+head,
+body {
+  font-family: "monospace", sans-serif;
+}
+
+.container {
+  width: 800px;
+  height: 550px;
+  margin: 60px auto;
+}
+
+/* Responsive */
+
+@media(max-width: 900px) {
+  .container {
+    margin: 50%;
+  }
+}
