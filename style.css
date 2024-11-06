@@ -10,10 +10,59 @@ body {
   margin: 60px auto;
 }
 
-/* Responsive */
+li {
+  margin-bottom: 0.5em;
+}
 
-@media(max-width: 900px) {
+/* Responsive */
+@media (max-width: 850px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .container {
-    margin: 50%;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    margin: 0.3em 0;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+  }
+
+  a {
+    font-size: 1em;
+  }
+
+  .bmc-button {
+    margin-top: 20px;
   }
 }
